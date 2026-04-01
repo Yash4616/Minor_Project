@@ -131,36 +131,33 @@ To change batches/workers/devices, edit the constants at the top of
 
 ## 9. Final Results Report
 
-=================================================================
-  BCO074C MINOR PROJECT - FINAL RESULTS REPORT
-=================================================================
+### BCO074C Minor Project - Final Results Report
 
---- OBJECT DETECTION (YOLO) ---
-  Weights Path        : /kaggle/working/output/yolo_train/weights/best.pt
-  Precision           : 0.9819
-  Recall              : 0.9704
-  mAP@0.50            : 0.9930
-  mAP@0.50:0.95       : 0.8626
+#### Object Detection (YOLO)
+- **Weights Path**: `/kaggle/working/output/yolo_train/weights/best.pt`
+- **Precision**: 0.9819
+- **Recall**: 0.9704
+- **mAP@0.50**: 0.9930
+- **mAP@0.50:0.95**: 0.8626
 
---- SEMANTIC SEGMENTATION (U-Net) ---
-  Seg Accuracy (fg)   : 0.9856
-  Mean IoU            : 0.9605
-  Pixel Accuracy      : 0.9996
+#### Semantic Segmentation (U-Net)
+- **Segmentation Accuracy (Foreground)**: 0.9856
+- **Mean IoU**: 0.9605
+- **Pixel Accuracy**: 0.9996
 
-        Class |      IoU |  Pixel Acc
-  ------------------------------------
-  Background |   0.9998 |    0.9998
-     Digit 0 |   0.9674 |    0.9919
-     Digit 1 |   0.9497 |    0.9744
-     Digit 2 |   0.9612 |    0.9841
-     Digit 3 |   0.9612 |    0.9917
-     Digit 4 |   0.9500 |    0.9858
-     Digit 5 |   0.9542 |    0.9815
-     Digit 6 |   0.9625 |    0.9870
-     Digit 7 |   0.9528 |    0.9842
-     Digit 8 |   0.9605 |    0.9890
-     Digit 9 |   0.9462 |    0.9797
+| Class       | IoU    | Pixel Accuracy |
+|-------------|--------|----------------|
+| Background  | 0.9998 | 0.9998         |
+| Digit 0     | 0.9674 | 0.9919         |
+| Digit 1     | 0.9497 | 0.9744         |
+| Digit 2     | 0.9612 | 0.9841         |
+| Digit 3     | 0.9612 | 0.9917         |
+| Digit 4     | 0.9500 | 0.9858         |
+| Digit 5     | 0.9542 | 0.9815         |
+| Digit 6     | 0.9625 | 0.9870         |
+| Digit 7     | 0.9528 | 0.9842         |
+| Digit 8     | 0.9605 | 0.9890         |
+| Digit 9     | 0.9462 | 0.9797         |
 
-=================================================================
-  END OF REPORT
-=================================================================
+---
+End of Report
