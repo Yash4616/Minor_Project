@@ -1,0 +1,33 @@
+=================================================================
+  BCO074C MINOR PROJECT - FINAL RESULTS REPORT
+=================================================================
+
+--- OBJECT DETECTION (YOLO) ---
+  Weights Path        : /kaggle/working/output/yolo_train/weights/best.pt
+  Precision           : 0.9819
+  Recall              : 0.9704
+  mAP@0.50            : 0.9930
+  mAP@0.50:0.95       : 0.8626
+
+--- SEMANTIC SEGMENTATION (U-Net) ---
+  Seg Accuracy (fg)   : 0.9861
+  Mean IoU            : 0.9640
+  Pixel Accuracy      : 0.9996
+
+        Class |      IoU |  Pixel Acc
+  ------------------------------------
+  Background |   0.9998 |    0.9998
+     Digit 0 |   0.9724 |    0.9910
+     Digit 1 |   0.9525 |    0.9733
+     Digit 2 |   0.9656 |    0.9872
+     Digit 3 |   0.9678 |    0.9900
+     Digit 4 |   0.9566 |    0.9875
+     Digit 5 |   0.9561 |    0.9797
+     Digit 6 |   0.9634 |    0.9903
+     Digit 7 |   0.9581 |    0.9860
+     Digit 8 |   0.9580 |    0.9882
+     Digit 9 |   0.9531 |    0.9801
+
+=================================================================
+  END OF REPORT
+=================================================================

@@ -1,0 +1,9 @@
+# ninja log v7
+2	25259	1775050370375098080	CMakeFiles/Change.dir/src/data_gen.cpp.o	47e2af1585ab9f40
+2	27217	1775050370375098080	CMakeFiles/Change.dir/src/main.cpp.o	fcce1c41485bb7d6
+25267	48605	1775050395639915503	CMakeFiles/Change.dir/src/train_detector.cpp.o	e70e8832406e75db
+27218	49326	1775050397591055858	CMakeFiles/Change.dir/src/train_unet.cpp.o	b488f6e28d84b0b2
+48605	70465	1775050418978594400	CMakeFiles/Change.dir/src/evaluate.cpp.o	6ab4900f95436986
+49327	71350	1775050419700646344	CMakeFiles/Change.dir/src/visualize.cpp.o	e59d6349fbb97e1
+70466	87017	1775050440839167014	CMakeFiles/Change.dir/src/report.cpp.o	3d009b8b56308578
+87017	88281	1775050457390357678	Change	83e03661b5986865

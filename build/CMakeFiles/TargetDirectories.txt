@@ -1,0 +1,3 @@
+/kaggle/working/Minor_Project/build/CMakeFiles/Change.dir
+/kaggle/working/Minor_Project/build/CMakeFiles/edit_cache.dir
+/kaggle/working/Minor_Project/build/CMakeFiles/rebuild_cache.dir
