@@ -161,3 +161,33 @@ To change batches/workers/devices, edit the constants at the top of
 
 ---
 End of Report
+
+## 8. Results and Visualizations
+
+### YOLO Detection Metrics
+- **Precision**: 98.19%
+- **Recall**: 97.04%
+- **mAP@50**: 99.30%
+- **mAP@50-95**: 86.26%
+
+### U-Net Segmentation Metrics
+- **Mean IoU**: 96.40%
+- **Pixel Accuracy**: 99.96%
+- **Foreground Accuracy**: 98.61%
+
+### Training History (U-Net)
+| Epoch | Train Loss | Validation Loss | Learning Rate |
+|-------|------------|-----------------|---------------|
+| 1     | 1.4822     | 0.5806          | 0.001         |
+| 2     | 0.2461     | 0.1771          | 0.001         |
+| 3     | 0.1212     | 0.1194          | 0.001         |
+| ...   | ...        | ...             | ...           |
+| 27    | 0.0064     | 0.0430          | 0.000125      |
+
+## Results Visualizations
+
+### Generated Sample Scenes
+![Generated MNISTDD-RGB Samples](output/mnistdd_rgb_samples.png)
+
+### Final Results
+![Results](output/yolo_train/results.png)
